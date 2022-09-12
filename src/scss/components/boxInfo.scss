@@ -1,0 +1,222 @@
+.main {
+    display: flex;
+    flex-direction:column;
+    flex:1;
+    align-items: center;
+}
+
+.boxinfo_container_g {
+    background: $bg_g;
+    border: 1px solid  rgb(0, 0, 0);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    flex: 1 1 auto;
+    flex-basis: calc(33% - 20px);
+    margin: 10px;
+    padding: 0px;
+    max-width: 600px;
+    width: 515px;
+    height: 280px;
+    max-height: 280px;
+
+
+}
+
+.boxinfo_container_s {
+    background: $bg_s;
+    border: 1px solid  rgb(0, 0, 0);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    flex: 1 1 auto;
+    flex-basis: calc(33% - 20px);
+    margin: 10px;
+    padding: 0px;
+    max-width: 600px;
+    width: 515px;
+    height: 280px;
+    max-height: 280px;
+    
+}
+
+.boxinfo_container_h {
+    background: $bg_h;
+    border: 1px solid  rgb(0, 0, 0);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    flex: 1 1 auto;
+    flex-basis: calc(33% - 20px);
+    margin: 10px;
+    padding: 0px;
+    max-width: 600px;
+    width: 515px;
+    height: 280px;
+    max-height: 280px;
+}
+
+.boxinfo_container_r {
+    background: $bg_r;
+    border: 1px solid  rgb(0, 0, 0);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    flex: 1 1 auto;
+    flex-basis: calc(33% - 20px);
+    margin: 10px;
+    padding: 0px;
+    max-width: 600px;
+    width: 515px;
+    height: 280px;
+    max-height: 280px;
+}
+
+.boxinfo_img {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0px 30px;
+}  
+
+.boxinfo_img__lsection{
+    border-radius: 125px;
+    width: 125px;
+    height: 125px;
+    display: flex;
+    
+}
+
+.boxinfo_img__rsection{
+    flex: 2;
+    background-color: white;
+    padding: 0px 30px 20px;
+    height: 100%;
+    border-radius: 0px 16px 16px 0px;
+    
+}
+
+.boxinfo_img__rsection__d{
+    flex: 2;
+    background-color: #ccc;
+    padding: 0px 30px 20px;
+    height: 100%;
+    border-radius: 0px 16px 16px 0px;
+    
+}
+
+.boxinfo_img__bg{
+    
+}
+
+.boxinfo_status {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #999999;  
+    font-size: $font-small;  
+    
+}
+
+.boxinfo_name {
+    font-weight: 700px;
+    color: $font-color-name-title;
+    font-size: $font-big;  
+}
+
+.boxinfo_img__ribbon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxinfo_rsection__labels{
+    font-size: $font-small;
+    color: $boxinfo-font-color;
+    font-weight: 700;
+    line-height: 27px;
+    
+    
+}
+
+.boxinfo_rsection__labelsinfo{
+    color: $boxinfo-font-color;
+}
+
+@media only screen and (max-width: 900px) {
+    .main {
+        display: flex;
+        //flex-direction:row;
+        flex:1;
+        justify-content: center;
+    }
+    
+    .boxinfo_container_s, .boxinfo_container_g, .boxinfo_container_h, .boxinfo_container_r   {
+        border-radius: 16px;
+        width: 180px;
+        //justify-content: center;
+        display: flex;
+        flex-direction: column;
+        //align-items: center;
+        //white-space: nowrap;
+        margin-bottom: 50px;
+        //padding: 0px;      
+        //width: 180px;
+        height: 240px;
+
+       
+    }
+
+    .boxinfo_img {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 30px 30px;
+    }  
+
+    .boxinfo_name {
+        display: true;
+        font-size: 18px;
+
+    }
+    .boxinfo_rsection__labels{
+        display: none;
+    }
+    .boxinfo_rsection__labelsinfo{
+        display: none;
+    }
+    .boxinfo_img__lsection{
+        border-radius: 125px;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        
+    }
+    .boxinfo_img__rsection{
+        flex: 2;
+        background-color: white;
+        padding: 0px 30px 20px;
+        height: 170px;
+        border-radius: 0px 0px 16px 16px;
+        
+    }
+  }
+
+.boxinfo_ribbon{
+    background-color: transparent;
+    border: #fff;
+   // opacity: 0.6;
+    transition: 0.3s;
+
+
+        &:hover{
+            background-color: $button_color;
+        }
+}
