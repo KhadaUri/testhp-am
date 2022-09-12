@@ -574,6 +574,26 @@
       "actor": "David Bradley",
       "alive": true,
       "image": "http://hp-api.herokuapp.com/images/filch.jpg"
+    },
+    {
+      "name": "Prueba",
+      "dateOfBirth": "Prueba",
+      "eyeColour": "Prueba",
+      "hairColour": "Prueba",
+      "id": 1663002870175,
+      "hogwartsStudent": true,
+      "hogwartsStaff": "true",
+      "gender": "male"
+    },
+    {
+      "name": "dasd",
+      "dateOfBirth": "dasd",
+      "eyeColour": "dasd",
+      "hairColour": "dsadsa",
+      "id": 1663002980963,
+      "hogwartsStudent": "true",
+      "hogwartsStaff": true,
+      "gender": "male"
     }
   ]
 }

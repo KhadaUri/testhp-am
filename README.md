@@ -1,3 +1,19 @@
+# Levantar el proyecto,
+
+Se deberá correr con el siguiente comando "npm start", así mismo para correr el JSONServer con "npm run fake-api", el cuál se encarga de levantar el API para renderizar y agregar los datos a la muestra de personajes.
+
+# Lo que más me gustó
+
+Tuve la oportunidad de ejecutar mejor "Perfect Pixel".
+
+# Si hubiera tenido más tiempo
+
+Me hubiera gustado poder terminar algunas de las funcionalidades que me faltaron, así mismo agregar nuevas ideas de diseño o incluso más secciones.
+
+# Pain point
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
