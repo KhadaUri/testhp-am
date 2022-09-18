@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 
 
-function Dropdown({ listaFavoritos = [], dropdownTitle }) {
+const Dropdown = ({ listaFavoritos = [], dropdownTitle })  =>  {
   const activatorRef = useRef(null);
   const dropdownListRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);

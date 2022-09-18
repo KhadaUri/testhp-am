@@ -6,7 +6,7 @@ import Modal from './components/Modal';
 import imgHP from './../src/img/HarryPotter.png';
 import Dropdown from './components/Dropdown';
 import { useSelector } from 'react-redux';
-
+import BoxInfoClass from './components/BoxInfoClass';
 
 function App() {
   const [statusModal, changestatusModal] = useState(false);
@@ -44,7 +44,7 @@ function App() {
       </div>    
         <img className='img__main' src={imgHP} />  
         <div className='main-container'>   
-            <BoxInfo />
+            <BoxInfoClass />
         </div>             
         </>
   );
